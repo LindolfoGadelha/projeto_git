@@ -65,5 +65,5 @@ app.delete('/users/:id', checkUserId, (request, response) => { // deletando info
 
 
 app.listen(port, () => {
-    console.log(`Servidor ${port} rodando 🚀`)
+    console.log("Servidor ${port} rodando 🚀")
 })
